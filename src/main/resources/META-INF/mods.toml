@@ -2,19 +2,19 @@ modLoader="javafml" #mandatory
 
 loaderVersion="${loader_version_range}" #mandatory
 
-license="${mod_license}"
+license="MIT"
 
 [[mods]] #mandatory
 
 modId="broglisowls" #mandatory
 
-version="1.20 - 0.1.0" #mandatory
+version="1.20.1 - 0.1.0" #mandatory
 
 displayName="Broglis Owls" #mandatory
 
 authors="Brogli" #optional
 
-description='''${mod_description}'''
+description='''Adds two types of owls to the world of Minecraft.'''
 
 [[dependencies.broglisowls]] #optional
 
