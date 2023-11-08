@@ -1,0 +1,40 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}" #mandatory
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="broglisowls" #mandatory
+
+version="1.20 - 0.1.0" #mandatory
+
+displayName="Broglis Owls" #mandatory
+
+authors="Brogli" #optional
+
+description='''${mod_description}'''
+
+[[dependencies.broglisowls]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="${forge_version_range}" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.broglisowls]]
+    modId="minecraft"
+
+    mandatory=true
+
+    versionRange="${minecraft_version_range}"
+
+    ordering="NONE"
+
+    side="BOTH"

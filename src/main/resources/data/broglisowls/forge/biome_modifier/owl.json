@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": ["flower_forest","birch_forest","dark_forest","old_growth_birch_forest"],
+  "spawners": {
+    "type": "broglisowls:entity_owl",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}
